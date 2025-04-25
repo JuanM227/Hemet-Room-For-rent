@@ -1,262 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 24.8.4.2 (Linux)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="00:00:00"/>
-	<style type="text/css">
-		@page { size: 8.5in 11in; margin: 1in }
-		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Share Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        .listing {
+            background-color: white;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .listing h2 {
+            margin-top: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #6a0dad;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #6a0dad;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        ul {
+            padding-left: 1.2em;
+        }
+        ul li {
+            margin-bottom: 0.5em;
+        }
+    </style>
 </head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p style="line-height: 100%; margin-bottom: 0in">
-<font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;!DOCTYPE
-html&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;html
-lang=&quot;en&quot;&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;head&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;meta
-charset=&quot;UTF-8&quot;&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;meta
-name=&quot;viewport&quot; content=&quot;width=device-width,
-initial-scale=1.0&quot;&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;title&gt;Room
-Share Listings&lt;/title&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;style&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">body
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">font-family:
-Arial, sans-serif;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">margin:
-0;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">padding:
-0;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">background-color:
-#f2f2f2;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">header
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">background-color:
-#6a0dad;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">color:
-white;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">padding:
-1em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">text-align:
-center;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">main
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">padding:
-2em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">.listing
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">background-color:
-white;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">padding:
-1em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">margin-bottom:
-1em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">border-radius:
-8px;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">box-shadow:
-0 0 10px rgba(0, 0, 0, 0.1);</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">.listing
-h2 {</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">margin-top:
-0;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">a
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">text-decoration:
-none;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">color:
-#6a0dad;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">footer
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">text-align:
-center;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">padding:
-1em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">background-color:
-#6a0dad;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">color:
-white;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">position:
-fixed;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">width:
-100%;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">bottom:
-0;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">ul
-{</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">padding-left:
-1.2em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">ul
-li {</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">margin-bottom:
-0.5em;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">}</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/style&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/head&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;body&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;header&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;h1&gt;Find
-Your Room Share&lt;/h1&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/header&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;main&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;div
-class=&quot;listing&quot;&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;h2&gt;🌟
-Private Room for Rent – $950/month (All Utilities Included!)&lt;/h2&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;p&gt;Looking
-for a peaceful, affordable space in Hemet? This cozy and clean
-private room could be the perfect fit for you — just $950/month
-with ALL utilities included!&lt;/p&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;h3&gt;🏡
-Features:&lt;/h3&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;ul&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Private entrance for maximum privacy&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Stylish shared bathroom with modern finishes&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Spotless, well-maintained space&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Safe and quiet neighborhood&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Outdoor seating area to relax and unwind&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Air conditioning for year-round comfort&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;✅
-Fully furnished – just bring your suitcase!&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/ul&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;h3&gt;🗺️
-Convenient Location:&lt;/h3&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;ul&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                             
-<font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;Walking
-distance to shops, restaurants, and public transit&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;Easy
-access to main roads and local amenities&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/ul&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;h3&gt;🔒
-Requirements:&lt;/h3&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;ul&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;No
-smoking or pets&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                             
-<font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;Contract
-is required&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;li&gt;First
-month’s rent + security deposit required&lt;/li&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/ul&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-                      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;p&gt;📞
-&lt;strong&gt;Contact Kimberly today&lt;/strong&gt; to schedule a
-tour or ask questions! Let’s find your new home 🏡💌&lt;/p&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/div&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><br/>
+<body>
+    <header>
+        <h1>Find Your Room Share</h1>
+    </header>
+    <main>
+        <div class="listing">
+            <h2>🌟 Private Room for Rent – $950/month (All Utilities Included!)</h2>
+            <p>Looking for a peaceful, affordable space in Hemet? This cozy and clean private room could be the perfect fit for you — just $950/month with ALL utilities included!</p>
+            <h3>🏡 Features:</h3>
+            <ul>
+                <li>✅ Private entrance for maximum privacy</li>
+                <li>✅ Stylish shared bathroom with modern finishes</li>
+                <li>✅ Spotless, well-maintained space</li>
+                <li>✅ Safe and quiet neighborhood</li>
+                <li>✅ Outdoor seating area to relax and unwind</li>
+                <li>✅ Air conditioning for year-round comfort</li>
+                <li>✅ Fully furnished – just bring your suitcase!</li>
+            </ul>
+            <h3>🗺️ Convenient Location:</h3>
+            <ul>
+                <li>Walking distance to shops, restaurants, and public transit</li>
+                <li>Easy access to main roads and local amenities</li>
+            </ul>
+            <h3>🔒 Requirements:</h3>
+            <ul>
+                <li>No smoking or pets</li>
+                <li>Contract is required</li>
+                <li>First month’s rent + security deposit required</li>
+            </ul>
+            <p>📞 <strong>Contact Kimberly today</strong> to schedule a tour or ask questions! Let’s find your new home 🏡💌</p>
+        </div>
 
-</p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-  </font>
-</p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/main&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;footer&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-              <font face="Helvetica"><font size="3" style="font-size: 12pt">&amp;copy;
-2025 RoomShare Connect</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"> 
-      <font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/footer&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/body&gt;</font></font></font></p>
-<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Helvetica"><font size="3" style="font-size: 12pt">&lt;/html&gt;</font></font></font></p>
+  
+    </main>
+    <footer>
+        &copy; 2025 RoomShare Connect
+    </footer>
 </body>
 </html>
